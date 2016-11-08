@@ -34,12 +34,13 @@
 % every point is respresent by (ob1, ob2, ob3, ...).
 %
 %                                                  Written by Kim, Wiback,
-%                                                     2016.05.26. Ver.1.1.
-%                                                     2016.05.27. Ver.1.2.
-%                                                     2016.05.30. Ver.1.3.
-%                                                     2016.06.04. Ver.1.4.
-%                                                     2016.06.05. Ver.1.5.
-%                                                     2016.06.08. Ver.1.6.
+%                                                        2016.05.26, v1.1.
+%                                                        2016.05.27, v1.2.
+%                                                        2016.05.30, v1.3.
+%                                                        2016.06.04, v1.4.
+%                                                        2016.06.05, v1.5.
+%                                                        2016.06.08, v1.6.
+%                                                        2016.11.08, v1.7.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function space_and_coordinates
 
@@ -4470,8 +4471,8 @@ set(S.slide_rc, 'callback', {@slide_rc_callback, S})
             y_1 = 0;
             x_2 = norm(f_2) * cos(acos(corr(f_1, f_2)));
             y_2 = norm(f_2) * sin(acos(corr(f_1, f_2)));
-            y_3 = norm(f_3) * cos(acos(corr(f_2, f_3)));
-            z_3 = norm(f_3) * sin(acos(corr(f_2, f_3)));
+            y_3 = norm(f_3) * cos(acos(corr(f_1, f_3)));
+            z_3 = norm(f_3) * sin(acos(corr(f_1, f_3)));
             
             %%% Adjustments for the above substitutions
             % The norms have to be re-adjusted after we extract the angles.

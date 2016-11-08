@@ -27,6 +27,6 @@ Please send any questions to: <kwb425@icloud.com>
 [3]: https://github.com/kwb425/Space_and_Coordinates_MATLAB/releases
 [4]: https://github.com/kwb425/Space_and_Coordinates_MATLAB
 <!--Links to images, reference Markdowns-->
-[a]: https://img.shields.io/badge/Tag-v1.6-red.svg?style=plastic
-[b]: https://img.shields.io/badge/Release-v1.6-green.svg?style=plastic
+[a]: https://img.shields.io/badge/Tag-v1.7-red.svg?style=plastic
+[b]: https://img.shields.io/badge/Release-v1.7-green.svg?style=plastic
 [c]: https://img.shields.io/badge/Download-Click-blue.svg?style=plastic
